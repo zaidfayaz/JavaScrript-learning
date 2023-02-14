@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicit Type Conversion</title>
+
+    <script>  
+            //string to number
+        var a="10";   //string type
+        var a1=Number(a);   //converting string into number
+        var b= "20";
+        var b1=Number(b)
+        var result= a1+b1;
+        document.write(result);
+        document.write("<br>");
+    
+          //number to string
+          var num=10;
+          var num1=String(num);
+          document.write(typeof(num1));
+          document.write("<br>");
+
+           //boolean to number
+           document.write(Number(false));   //false -> 0 and true -> 1
+           document.write("<br>");
+
+           //number to boolean
+           document.write(Boolean(0));   //vice versa
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

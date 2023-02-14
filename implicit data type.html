@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implicit Data Type</title>
+    <script>
+             //case 1:
+               // "number" + null -> "numbernull"
+              // "number" + boolean -> "numberboolean"
+              // "number" + number -> "numbernumber"
+              // "number" + undefined -> "numberundefined"
+            var a="23";
+            var res=document.write(a+null); //result will be string
+            document.write("<br>");
+            document.write(a+false);  //result will be string
+            document.write("<br>");
+            document.write(a+233);
+            document.write("<br>");
+            var res1= a + undefined;
+            document.write(typeof(res1));   //type will be string
+            document.write("<br>");
+
+            //case 2:
+                // "number" - number -> number - number
+                // "number" * boolean -> number*number
+                // "number" / number -> number/number
+
+             document.write("23" -3)   //the type will be number
+             document.write("<br>");
+             document.write("23" *3);
+             document.write("<br>");
+
+              //case 3:
+            // 'String' - 'string' -> NaN
+              //'numeric string - 'String' -> NaN
+             document.write("Zaid" - "Fayaz")   //the type will be NaN
+             document.write("<br>");
+             document.write("23" - "Zaid")
+             
+
+         
+
+
+    </script>
+</head>
+<body>
+    
+
+</body>
+</html>
