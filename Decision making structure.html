@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making Structure</title>
+    <script> 
+           //if statement
+        var num=10;
+        if(num ==10 ){               //if condition will be false it will display nothing
+            document.write("welcome here");
+            document.write("<br>");
+        }
+          
+          //if-else statement
+          var num=Number(prompt("Enter the number: "));
+           if(num %2== 0){
+            document.write("Number is Even");
+            document.write("<br>");
+            
+           }
+           else{
+            document.write("Number is Odd");
+            document.write("<br>");
+           }
+
+           //if-else if statement
+           var marks=Number(prompt("Enter your marks to check your grade: "));
+           if(marks==100){
+            document.write("Grade A+");
+           }
+            else if(marks>=90){
+             document.write("Grade A");
+            }
+           else if(marks>=80){
+            document.write("Grade B+");
+           }
+           else if(marks>=70){
+            document.write("Grade B");
+           }
+           else if(marks>=50){
+            document.write("Grade C");
+           }
+            else{
+                document.write("Sorry! You are Fail!")
+
+           }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
